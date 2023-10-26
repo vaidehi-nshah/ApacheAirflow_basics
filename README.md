@@ -48,3 +48,11 @@ You are now ready to access Airflow on one of your browsers:
    http://localhost:8080/login/
 ```
 The default username and password, both are set as "airflow". 
+
+
+
+**To exit out**
+(mac): control+C 
+ ```bash
+    docker-compose down
+ ```
