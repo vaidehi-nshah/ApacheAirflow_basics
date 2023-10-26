@@ -19,8 +19,17 @@ If you wish to check the successful installation of Docker and Docker-compose (w
 
 ### STEP 2
 After this, it is recommended that you make a new folder in your system for airflow-docker, wherein you can download the docker-compose file describing all the services needed by airflow. 
+ ```bash
+    mkdir airflow-docker
+ ```
+ ```bash
+    cd airflow-docker
+ ```
 
 ### STEP 3
-
+Here, you need to upload the docker-compose file, which has been made for us by the Airflow community. You can access the .yaml file from here:
+ ```bash
+    https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+ ```
 
 ### STEP 4
