@@ -31,5 +31,20 @@ Here, you need to upload the docker-compose file, which has been made for us by 
  ```bash
     https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
  ```
+To deploy Airflow on Docker Compose, you should fetch docker-compose.yaml:
+ ```bash
+    curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.7.2/docker-compose.yaml'
+ ```
 
 ### STEP 4
+Run the following command to start and run a set of Docker containers defined in a docker-compose.yml file in Docker Compose:
+ ```bash
+    docker-compose up
+ ```
+
+### STEP 5
+You are now ready to access Airflow on one of your browsers:
+```bash
+   http://localhost:8080/login/
+```
+The default username and password, both are set as "airflow". 
