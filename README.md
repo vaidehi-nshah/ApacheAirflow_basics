@@ -1,4 +1,4 @@
-This is a repository for installation and initialization of Apache Airflow. It also has the basics of how to write a simple first DAG.
+## This is a repository for installation and initialization of Apache Airflow. It also has the basics of how to write a simple first DAG.
 
 
 There's two basic ways you can install airflow:
